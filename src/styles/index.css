@@ -10,3 +10,76 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+input{
+    width: 100%;
+    min-height: 70px;
+    border: solid 0.5 gainsboro;
+    border-radius: 0;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 0.5em 0 0.5em 2em;
+    overflow-wrap: anywhere;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+    font-weight: 200;
+}
+
+p{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-top: 2em;
+    width: 100%;
+    margin: 0;
+    padding: 0.5em 0 0.5em 2em;
+    text-align-last: left;
+    overflow-wrap: anywhere;
+}
+
+
+
+.containerBoard{
+   
+    width: 700px;
+    margin: auto; 
+    margin-top: 5em;
+}
+
+.containerTarea{
+    display: flex;
+    user-select: none;
+
+}
+
+
+
+.parrafoTarea{
+    width: 85%;
+    align-content: center;
+    
+}
+
+
+
+.iconTarea{
+    width: 15%;
+    align-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.iconTarea:hover{
+    width: 15%;
+    align-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.iconTarea svg{
+    height: -webkit-fill-available;
+}
